@@ -88,3 +88,20 @@ footer {
     font-size: 0.9rem;
     color: #ddd;
 }
+/* Next Steps Section */
+#next {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #fff8e1;
+    border-radius: 5px;
+    border-left: 4px solid #ff9800;
+}
+
+#next ol {
+    padding-left: 1.5rem;
+}
+
+#next li {
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
