@@ -46,3 +46,39 @@ footer {
     padding: 1rem;
     border-radius: 5px;
 }
+/* Navigation Styles */
+nav {
+    background-color: #444;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #4CAF50;
+    border-radius: 3px;
+}
+
+/* Task List Styles */
+#tasks {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #f0f8ff;
+    border-radius: 5px;
+}
+
+#tasks ul {
+    list-style-type: square;
+    padding-left: 1.5rem;
+}
+
+#tasks li {
+    margin-bottom: 0.5rem;
+}
