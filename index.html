@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Project Progress Tracker</h1>
+    </header>
+    <main>
+        <section id="progress">
+            <h2>Current Status: In Progress</h2>
+            <p>Last updated: <span id="date"></span></p>
+        </section>
+    </main>
+    <footer>
+        <p>GitHub Lab Activity</p>
+    </footer>
+    <script>
+        document.getElementById("date").textContent = new Date().toLocaleDateString();
+    </script>
+</body>
+</html>
