@@ -82,3 +82,9 @@ nav a:hover {
 #tasks li {
     margin-bottom: 0.5rem;
 }
+
+/* Team Update */
+footer {
+    font-size: 0.9rem;
+    color: #ddd;
+}
